@@ -1,5 +1,5 @@
 
-How to instal prototype site composer
+How to instal prototype site using composer
 ---------------------------------
 web site consist of a custom theme and custom module both are in active development stage
 contribured modules can be instaleld using the  composer , composer.json files is updated.
