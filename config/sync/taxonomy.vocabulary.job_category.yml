@@ -1,0 +1,9 @@
+uuid: cd534121-69ba-4e93-a451-4f1c75b48c90
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job Category'
+vid: job_category
+description: 'Job Category'
+hierarchy: 0
+weight: 0

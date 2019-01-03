@@ -1,0 +1,29 @@
+uuid: 4f898c48-58cb-47ef-b851-c473058e735b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jobs_category_taxonomy
+    - node.type.jobs
+    - taxonomy.vocabulary.job_category
+id: node.jobs.field_jobs_category_taxonomy
+field_name: field_jobs_category_taxonomy
+entity_type: node
+bundle: jobs
+label: 'Job Category'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      job_category: job_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

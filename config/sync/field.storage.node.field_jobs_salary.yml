@@ -1,0 +1,18 @@
+uuid: 97fb30a1-548c-4178-a95f-8f2f48363ea2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_jobs_salary
+field_name: field_jobs_salary
+entity_type: node
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

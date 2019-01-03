@@ -1,0 +1,22 @@
+uuid: efc968c8-3905-4180-9228-85eab9d8968e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - prototype
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: prototype_content
+theme: prototype
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

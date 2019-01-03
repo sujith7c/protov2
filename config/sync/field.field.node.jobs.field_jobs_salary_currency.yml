@@ -1,0 +1,23 @@
+uuid: 6843fb24-0769-43d9-a865-25cdb4a4cab0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jobs_salary_currency
+    - node.type.jobs
+  module:
+    - options
+id: node.jobs.field_jobs_salary_currency
+field_name: field_jobs_salary_currency
+entity_type: node
+bundle: jobs
+label: Currency
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: AED
+default_value_callback: ''
+settings: {  }
+field_type: list_string

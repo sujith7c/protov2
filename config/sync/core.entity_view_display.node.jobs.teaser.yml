@@ -1,0 +1,38 @@
+uuid: 83d3fa04-8437-44a5-a483-8f37f414152d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.jobs.body
+    - node.type.jobs
+  module:
+    - text
+    - user
+id: node.jobs.teaser
+targetEntityType: node
+bundle: jobs
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_job_expiry_date: true
+  field_jobs_category_taxonomy: true
+  field_jobs_gender: true
+  field_jobs_location: true
+  field_jobs_nationalilty: true
+  field_jobs_salary: true
+  field_jobs_salary_currency: true
+  field_jobs_skills: true
