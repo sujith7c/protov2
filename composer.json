@@ -21,6 +21,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/bootstrap_barrio": "^4.17",
         "drupal/bootstrap_library": "^1.11",
+        "drupal/config_split": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/restui": "^1.16",
